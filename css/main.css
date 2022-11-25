@@ -1,8 +1,12 @@
 body{background-color: gray; text-align:center;}
 
-#tituloprincipal{color:red; background:white;font-size: 20px;text-decoration: underline blue;}
+#tituloprincipal{color:red; background:white;font-size: 20px;text-decoration: underline red;}
 .azul{color:blue; background-color: lightblue; front-size: 15px;text-decoration: underline white;}
 .purple {color:green; background: lightgreen;front-size:10px; }
 .icono-wsp { width: 100%; max-width:  47px; height: 47px; padding: 5px; position: fixed; right: 30px; bottom: 30px;
   }
-footer img {width: 100%; max-width:  47px; height: 47px; padding: 5px; }
+footer {display: flex; justify-content: space-around;flex-wrap: wrap;}
+
+
+header {display: flex; justify-content: space-around;flex-wrap: wrap;}
+header img {width: 25% ; height: 25% ;}
