@@ -1,12 +1,19 @@
 body{background-color: gray; text-align:center;}
 
-#tituloprincipal{color:red; background:white;font-size: 20px;text-decoration: underline red;}
-.azul{color:blue; background-color: lightblue; front-size: 15px;text-decoration: underline white;}
-.purple {color:green; background: lightgreen;front-size:10px; }
-.icono-wsp { width: 100%; max-width:  47px; height: 47px; padding: 5px; position: fixed; right: 30px; bottom: 30px;
-  }
-footer {display: flex; justify-content: space-around;flex-wrap: wrap;}
 
+.azul{  color:blue; background-color: lightblue; front-size: 15px;text-decoration: underline white; font-size: 3em;   }
+.purple {color:green; background: lightgreen;front-size:10px; font-size: 7vh;}
+.icono-wsp { width: 100%; max-width:  47px; height: 47px; padding: 5px; position: fixed; right: 30px; bottom: 30px;  }
+footer {display: flex; justify-content:center; align-items: center;flex-wrap: wrap;}
+footer img{width: 10%; height: 10% ; margin: 5px;}
+footer iframe {width: 20%; height: 20% ; margin: 5px;}
+header {display: flex; justify-content: center; align-items: center; min-width: 10 vh;flex-wrap: wrap;}
+header img {width: 10%; height: 10% ; margin: 5px;}
+#tituloprincipal{color:red; background-color: white; font-size: 20px;text-decoration: underline red; font-size: 3rem;text-align: center; margin 1opx;}
+#tituloprincipal:hover {background-color: grey; }
 
-header {display: flex; justify-content: space-around;flex-wrap: wrap;}
-header img {width: 25% ; height: 25% ;}
+@font-face { font-family: "matura"; src:url(../fuentes/MATURASC.TTF);}
+.li {font-size: 7vw; font-family: "matura";}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto&display=swap');
+.li. {font-family: "Noto" ;}
