@@ -17,3 +17,15 @@ header img {width: 10%; height: 10% ; margin: 5px;}
 
 @import url('https://fonts.googleapis.com/css2?family=Noto&display=swap');
 .li. {font-family: "Noto" ;}
+
+@media (min-width: 768px) {body {background-color:yellow; }}
+}
+@media  (orientation: landscape)
+
+@media (max-width: 992px){ header {color: red;}}
+
+@media (min-width: 991px){
+  .img. {display: none;}
+}
+@media (min-width: 767px) {.azul {display: none;}
+}
